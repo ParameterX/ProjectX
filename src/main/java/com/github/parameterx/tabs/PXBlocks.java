@@ -5,7 +5,7 @@ import net.minecraft.world.item.ItemStack;
 
 public class PXBlocks extends CreativeModeTab {
     public PXBlocks() {
-        super("ProjectX Blocks");
+        super("projectx_blocks");
     }
 
     @Override

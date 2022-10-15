@@ -1,0 +1,19 @@
+{
+  "item.projectx.steel_ingot": "钢锭",
+
+  "item.projectx.butterscotch_cinnamon_pie": "奶油肉桂派",
+
+  "item.projectx.crowbar": "撬棍",
+
+  "item.projectx.watermelon_knife": "西瓜刀",
+
+  "item.projectx.steel_helmet": "钢头盔",
+  "item.projectx.steel_chestplate": "钢胸甲",
+  "item.projectx.steel_leggings": "钢护腿",
+  "item.projectx.steel_boots": "钢靴子",
+
+  "itemGroup.projectx_items": "ProjetcX 物品",
+  "itemGroup.projectx_foods": "ProjetcX 食物",
+  "itemGroup.projectx_tools": "ProjetcX 工具",
+  "itemGroup.projectx_combat": "ProjetcX 战斗"
+}

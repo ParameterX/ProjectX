@@ -6,7 +6,7 @@ import net.minecraft.world.item.ItemStack;
 
 public class PXFoods extends CreativeModeTab {
     public PXFoods() {
-        super("ProjectX Foods");
+        super("projectx_foods");
     }
 
     @Override

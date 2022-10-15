@@ -6,7 +6,7 @@ import net.minecraft.world.item.ItemStack;
 
 public class PXCombat extends CreativeModeTab {
     public PXCombat() {
-        super("ProjectX Combat");
+        super("projectx_combat");
     }
 
     @Override

@@ -6,7 +6,7 @@ import net.minecraft.world.item.ItemStack;
 
 public class PXTools extends CreativeModeTab {
     public PXTools() {
-        super("ProjectX Tools");
+        super("projectx_tools");
     }
 
     @Override

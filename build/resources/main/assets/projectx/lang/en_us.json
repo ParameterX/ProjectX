@@ -1,0 +1,19 @@
+{
+  "item.projectx.steel_ingot": "Steel Ingot",
+
+  "item.projectx.butterscotch_cinnamon_pie": "Butterscotch Cinnamon Pie",
+
+  "item.projectx.crowbar": "Crowbar",
+
+  "item.projectx.watermelon_knife": "Watermelon Knife",
+
+  "item.projectx.steel_helmet": "Steel Helmet",
+  "item.projectx.steel_chestplate": "Steel Chestplate",
+  "item.projectx.steel_leggings": "Steel Leggings",
+  "item.projectx.steel_boots": "Steel Boots",
+
+  "itemGroup.projectx_items": "ProjetcX Items",
+  "itemGroup.projectx_foods": "ProjetcX Foodstuffs",
+  "itemGroup.projectx_tools": "ProjetcX Tools",
+  "itemGroup.projectx_combat": "ProjetcX Combat"
+}
