@@ -1,6 +1,5 @@
 package com.github.parameterx;
 
-import com.github.parameterx.items.ItemRegister;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
@@ -17,5 +16,6 @@ public class ProjectX {
 
         // Register Items
         ItemRegister.ITEM.register(eventBus);
+        BlockRegister.BLOCK.register(eventBus);
     }
 }

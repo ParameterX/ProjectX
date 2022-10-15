@@ -1,14 +1,11 @@
 package com.github.parameterx.itemTier;
 
-import com.github.parameterx.items.ItemRegister;
+import com.github.parameterx.ItemRegister;
 import net.minecraft.sounds.SoundEvent;
 import net.minecraft.sounds.SoundEvents;
-import net.minecraft.util.LazyLoadedValue;
 import net.minecraft.world.entity.EquipmentSlot;
 import net.minecraft.world.item.ArmorMaterial;
 import net.minecraft.world.item.crafting.Ingredient;
-
-import java.util.function.Supplier;
 
 public enum PXArmorTier implements ArmorMaterial {
     STEEL("steel",20,new int[]{3,5,6,3},9, SoundEvents.ARMOR_EQUIP_IRON,1.0F,0F,Ingredient.of(ItemRegister.steelIngot.get()));

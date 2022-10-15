@@ -1,6 +1,6 @@
 package com.github.parameterx.itemTier;
 
-import com.github.parameterx.items.ItemRegister;
+import com.github.parameterx.ItemRegister;
 import net.minecraft.world.item.Tier;
 import net.minecraft.world.item.crafting.Ingredient;
 

@@ -1,4 +1,4 @@
-package com.github.parameterx.items;
+package com.github.parameterx;
 
 import com.github.parameterx.Utils;
 import com.github.parameterx.itemTier.PXArmorTier;
@@ -6,9 +6,10 @@ import com.github.parameterx.items.foods.ButterscotchCinnamonPie;
 import com.github.parameterx.items.materials.SteelIngot;
 import com.github.parameterx.items.tools.Crowbar;
 import com.github.parameterx.items.tools.WatermelonKnife;
-import com.github.parameterx.tabs.PXTabs;
+import com.github.parameterx.PXTabs;
 import net.minecraft.world.entity.EquipmentSlot;
 import net.minecraft.world.item.ArmorItem;
+import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
@@ -53,4 +54,10 @@ public class ItemRegister {
 
     public static final RegistryObject<Item> steelBoots = ITEM.register("steel_boots",
             () -> new ArmorItem(PXArmorTier.STEEL,EquipmentSlot.FEET,(new Item.Properties().tab(PXTabs.COMBAT))));
+
+    /**
+     * Block Items
+     */
+    public static final RegistryObject<Item> steelBlock = ITEM.register("steel_block",
+            () -> new BlockItem(BlockRegister.steelBlock.get(),new Item.Properties().tab(PXTabs.BLOCKS)));
 }

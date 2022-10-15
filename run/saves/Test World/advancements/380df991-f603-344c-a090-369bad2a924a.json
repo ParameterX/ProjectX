@@ -1,4 +1,10 @@
 {
+  "minecraft:recipes/misc/iron_ingot_from_iron_block": {
+    "criteria": {
+      "has_iron_block": "2022-10-16 00:31:29 +1100"
+    },
+    "done": true
+  },
   "minecraft:story/obtain_armor": {
     "criteria": {
       "iron_helmet": "2022-10-13 17:33:09 +1100"
@@ -8,6 +14,12 @@
   "minecraft:recipes/misc/iron_nugget_from_blasting": {
     "criteria": {
       "has_iron_helmet": "2022-10-13 17:33:09 +1100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/anvil": {
+    "criteria": {
+      "has_iron_block": "2022-10-16 00:31:29 +1100"
     },
     "done": true
   },
@@ -28,6 +40,7 @@
       "minecraft:beach": "2022-10-13 17:32:29 +1100",
       "minecraft:river": "2022-10-13 17:32:27 +1100",
       "minecraft:forest": "2022-10-13 17:32:38 +1100",
+      "minecraft:windswept_forest": "2022-10-16 00:00:40 +1100",
       "minecraft:windswept_savanna": "2022-10-13 17:31:27 +1100",
       "minecraft:old_growth_birch_forest": "2022-10-13 17:48:39 +1100"
     },

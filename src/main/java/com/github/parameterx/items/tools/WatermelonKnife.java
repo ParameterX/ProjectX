@@ -1,7 +1,7 @@
 package com.github.parameterx.items.tools;
 
 import com.github.parameterx.itemTier.PXItemTier;
-import com.github.parameterx.tabs.PXTabs;
+import com.github.parameterx.PXTabs;
 import net.minecraft.world.item.SwordItem;
 
 public class WatermelonKnife extends SwordItem {
