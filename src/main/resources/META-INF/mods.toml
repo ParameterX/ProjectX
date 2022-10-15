@@ -1,0 +1,38 @@
+modLoader="javafml" #mandatory
+loaderVersion="[43,)" #mandatory This is typically bumped every Minecraft version by Forge. See our download page for lists of versions.
+license="MIT license"
+issueTrackerURL="https://github.com/ParameterX/ProjectX/issues" #optional
+
+[[mods]] #mandatory
+modId="projectx" #mandatory
+version="${file.jarVersion}" #mandatory
+displayName="ProjectX" #mandatory
+displayURL="https://github.com/ParameterX/ProjectX" #optional
+logoFile="ProjectX.png" #optional
+credits="感谢我的朋友们，感谢支持我的人！" #optional
+authors="ParameterX" #optional
+description='''
+这个模组包含了很多东西。
+=======
+This mod contains many stuffs.
+'''
+# A dependency - use the . to indicate dependency for a specific modid. Dependencies are optional.
+[[dependencies.projectx]] #optional
+    # the modid of the dependency
+    modId="forge" #mandatory
+    # Does this dependency have to exist - if not, ordering below must be specified
+    mandatory=true #mandatory
+    # The version range of the dependency
+    versionRange="[43,)" #mandatory
+    # An ordering relationship for the dependency - BEFORE or AFTER required if the relationship is not mandatory
+    ordering="NONE"
+    # Side this dependency is applied on - BOTH, CLIENT or SERVER
+    side="BOTH"
+# Here's another dependency
+[[dependencies.projectx]]
+    modId="minecraft"
+    mandatory=true
+# This version range declares a minimum of the current minecraft version up to but not including the next major version
+    versionRange="[1.19.2,1.20)"
+    ordering="NONE"
+    side="BOTH"
