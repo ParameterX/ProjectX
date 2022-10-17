@@ -3,6 +3,7 @@ package com.github.parameterx;
 import com.github.parameterx.Utils;
 import com.github.parameterx.itemTier.PXArmorTier;
 import com.github.parameterx.items.foods.ButterscotchCinnamonPie;
+import com.github.parameterx.items.materials.AluminumIngot;
 import com.github.parameterx.items.materials.SteelIngot;
 import com.github.parameterx.items.tools.Crowbar;
 import com.github.parameterx.items.tools.WatermelonKnife;
@@ -19,9 +20,16 @@ public class ItemRegister {
     public static final DeferredRegister<Item> ITEM = DeferredRegister.create(ForgeRegistries.ITEMS, Utils.MODID);
 
     /**
+     * Raw materials
+     */
+    public static final RegistryObject<Item> raw_aluminum = ITEM.register("raw_aluminum",
+            ()->new Item(new Item.Properties().tab(PXTabs.ITEMS)));
+
+    /**
      * Materials
      */
     public static final RegistryObject<Item> steelIngot = ITEM.register("steel_ingot", SteelIngot::new);
+    public static final RegistryObject<Item> aluminumIngot = ITEM.register("aluminum_ingot", AluminumIngot::new);
 
 
     /**
@@ -55,9 +63,4 @@ public class ItemRegister {
     public static final RegistryObject<Item> steelBoots = ITEM.register("steel_boots",
             () -> new ArmorItem(PXArmorTier.STEEL,EquipmentSlot.FEET,(new Item.Properties().tab(PXTabs.COMBAT))));
 
-    /**
-     * Block Items
-     */
-    public static final RegistryObject<Item> steelBlock = ITEM.register("steel_block",
-            () -> new BlockItem(BlockRegister.steelBlock.get(),new Item.Properties().tab(PXTabs.BLOCKS)));
 }

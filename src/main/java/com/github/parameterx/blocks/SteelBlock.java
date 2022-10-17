@@ -6,6 +6,10 @@ import net.minecraft.world.level.material.Material;
 
 public class SteelBlock extends Block {
     public SteelBlock() {
-        super(Properties.of(Material.METAL).strength(3).explosionResistance(7));
+        super(Properties.of(Material.METAL)
+                .strength(3f)
+                .explosionResistance(7)
+                .requiresCorrectToolForDrops()
+        );
     }
 }

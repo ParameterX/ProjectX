@@ -1,6 +1,6 @@
 {
   "type": "minecraft:smelting",
-  "cookingtime": 800,
+  "cookingtime": 400,
   "experience": 0.5,
   "group": "steel_ingot",
   "ingredient": {

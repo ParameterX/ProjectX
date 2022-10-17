@@ -14,8 +14,9 @@ public class ProjectX {
         // The Event Bus
         IEventBus eventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
-        // Register Items
+        // Registers
         ItemRegister.ITEM.register(eventBus);
         BlockRegister.BLOCK.register(eventBus);
+        BlockRegister.BLOCKITEM.register(eventBus);
     }
 }
