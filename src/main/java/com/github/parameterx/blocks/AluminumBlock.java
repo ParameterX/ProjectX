@@ -6,8 +6,8 @@ import net.minecraft.world.level.material.Material;
 public class AluminumBlock extends Block {
     public AluminumBlock() {
         super(Properties.of(Material.METAL)
-                .strength(3)
-                .explosionResistance(5)
+                .strength(3f)
+                .explosionResistance(5f)
                 .requiresCorrectToolForDrops()
         );
     }

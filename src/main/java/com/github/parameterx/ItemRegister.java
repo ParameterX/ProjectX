@@ -4,6 +4,7 @@ import com.github.parameterx.Utils;
 import com.github.parameterx.itemTier.PXArmorTier;
 import com.github.parameterx.items.foods.ButterscotchCinnamonPie;
 import com.github.parameterx.items.materials.AluminumIngot;
+import com.github.parameterx.items.materials.MagnesiumIngot;
 import com.github.parameterx.items.materials.SteelIngot;
 import com.github.parameterx.items.tools.Crowbar;
 import com.github.parameterx.items.tools.WatermelonKnife;
@@ -24,12 +25,15 @@ public class ItemRegister {
      */
     public static final RegistryObject<Item> raw_aluminum = ITEM.register("raw_aluminum",
             ()->new Item(new Item.Properties().tab(PXTabs.ITEMS)));
+    public static final RegistryObject<Item> raw_magnesium = ITEM.register("raw_magnesium",
+            ()->new Item(new Item.Properties().tab(PXTabs.ITEMS)));
 
     /**
      * Materials
      */
     public static final RegistryObject<Item> steelIngot = ITEM.register("steel_ingot", SteelIngot::new);
     public static final RegistryObject<Item> aluminumIngot = ITEM.register("aluminum_ingot", AluminumIngot::new);
+    public static final RegistryObject<Item> magnesiumIngot = ITEM.register("magnesium_ingot", MagnesiumIngot::new);
 
 
     /**

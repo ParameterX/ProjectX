@@ -8,7 +8,7 @@ public class SteelBlock extends Block {
     public SteelBlock() {
         super(Properties.of(Material.METAL)
                 .strength(3f)
-                .explosionResistance(7)
+                .explosionResistance(7f)
                 .requiresCorrectToolForDrops()
         );
     }

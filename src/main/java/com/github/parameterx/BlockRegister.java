@@ -1,10 +1,7 @@
 package com.github.parameterx;
 
 import com.github.parameterx.Utils;
-import com.github.parameterx.blocks.AluminumBlock;
-import com.github.parameterx.blocks.AluminumOre;
-import com.github.parameterx.blocks.DeepslateAluminumOre;
-import com.github.parameterx.blocks.SteelBlock;
+import com.github.parameterx.blocks.*;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
@@ -29,6 +26,10 @@ public class BlockRegister {
     public static final RegistryObject<Item> aluminumBlockItem = BLOCKITEM.register("aluminum_block",
             () -> new BlockItem(aluminumBlock.get(), new Item.Properties().tab(PXTabs.BLOCKS)));
 
+    public static final RegistryObject<Block> magnesiumBlock = BLOCK.register("magnesium_block", MagnesiumBlock::new);
+    public static final RegistryObject<Item> magnesiumBlockItem =BLOCKITEM.register("magnesium_block",
+            () -> new BlockItem(magnesiumBlock.get(),new Item.Properties().tab(PXTabs.BLOCKS)));
+
     // Ores
     public static final RegistryObject<Block> aluminumOre = BLOCK.register("aluminum_ore", AluminumOre::new);
     public static final RegistryObject<Item> aluminumOreItem = BLOCKITEM.register("aluminum_ore",
@@ -37,4 +38,12 @@ public class BlockRegister {
     public static final RegistryObject<Block> deepslateAluminumOre = BLOCK.register("deepslate_aluminum_ore", DeepslateAluminumOre::new);
     public static final RegistryObject<Item> deepslateAluminumOreItem = BLOCKITEM.register("deepslate_aluminum_ore",
             () -> new BlockItem(deepslateAluminumOre.get(), new Item.Properties().tab(PXTabs.BLOCKS)));
+
+    public static final RegistryObject<Block> magnesiumOre = BLOCK.register("magnesium_ore", MagnesiumOre::new);
+    public static final RegistryObject<Item> magnesiumOreItem = BLOCKITEM.register("magnesium_ore",
+            () -> new BlockItem(magnesiumOre.get(), new Item.Properties().tab(PXTabs.BLOCKS)));
+
+    public static final RegistryObject<Block> deepslateMagnesiumOre = BLOCK.register("deepslate_magnesium_ore", MagnesiumOre::new);
+    public static final RegistryObject<Item> deepslateMagnesiumOreItem = BLOCKITEM.register("deepslate_magnesium_ore",
+            () -> new BlockItem(deepslateMagnesiumOre.get(), new Item.Properties().tab(PXTabs.BLOCKS)));
 }
