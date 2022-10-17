@@ -9,41 +9,39 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 
+import java.util.function.Supplier;
+
 public class BlockRegister {
     public static final DeferredRegister<Block> BLOCK = DeferredRegister.create(ForgeRegistries.BLOCKS, Utils.MODID);
     public static final DeferredRegister<Item> BLOCKITEM = DeferredRegister.create(ForgeRegistries.ITEMS,Utils.MODID);
 
     /**
-     * Blocks and corresponding BlockItems
+     * Auto register the block and create the blockItem and put it to the PXTabs.BLOCK tab.
+     * @param name
+     * @param block
+     * @return
+     * @param <T>
      */
+    private static <T extends Block> RegistryObject<T> reg (String name, Supplier<T> block) {
+        RegistryObject<T> toReturn = BLOCK.register(name,block);
+        BLOCKITEM.register(name, () -> new BlockItem(toReturn.get(), new Item.Properties().tab(PXTabs.BLOCKS)));
+        return toReturn;
+    }
 
-    // Normal Blocks not ores
+    // Use the traditional way to register steel because it is used as icon.
     public static final RegistryObject<Block> steelBlock = BLOCK.register("steel_block", SteelBlock::new);
     public static final RegistryObject<Item> steelBlockItem = BLOCKITEM.register("steel_block",
             () -> new BlockItem(steelBlock.get(), new Item.Properties().tab(PXTabs.BLOCKS)));
 
-    public static final RegistryObject<Block> aluminumBlock = BLOCK.register("aluminum_block", AluminumBlock::new);
-    public static final RegistryObject<Item> aluminumBlockItem = BLOCKITEM.register("aluminum_block",
-            () -> new BlockItem(aluminumBlock.get(), new Item.Properties().tab(PXTabs.BLOCKS)));
 
-    public static final RegistryObject<Block> magnesiumBlock = BLOCK.register("magnesium_block", MagnesiumBlock::new);
-    public static final RegistryObject<Item> magnesiumBlockItem =BLOCKITEM.register("magnesium_block",
-            () -> new BlockItem(magnesiumBlock.get(),new Item.Properties().tab(PXTabs.BLOCKS)));
+    // Blocks
+    public static final RegistryObject<Block> aluminumBlock = reg("aluminum_block", AluminumBlock::new);
+    public static final RegistryObject<Block> magnesiumBlock = reg("magnesium_block", MagnesiumBlock::new);
 
     // Ores
-    public static final RegistryObject<Block> aluminumOre = BLOCK.register("aluminum_ore", AluminumOre::new);
-    public static final RegistryObject<Item> aluminumOreItem = BLOCKITEM.register("aluminum_ore",
-            () -> new BlockItem(aluminumOre.get(), new Item.Properties().tab(PXTabs.BLOCKS)));
+    public static final RegistryObject<Block> aluminumOre = reg("aluminum_ore", AluminumOre::new);
+    public static final RegistryObject<Block> deepslateAluminumOre = reg("deepslate_aluminum_ore", DeepslateAluminumOre::new);
+    public static final RegistryObject<Block> magnesiumOre = reg("magnesium_ore", MagnesiumOre::new);
+    public static final RegistryObject<Block> deepslateMagnesiumOre = reg("deepslate_magnesium_ore", MagnesiumOre::new);
 
-    public static final RegistryObject<Block> deepslateAluminumOre = BLOCK.register("deepslate_aluminum_ore", DeepslateAluminumOre::new);
-    public static final RegistryObject<Item> deepslateAluminumOreItem = BLOCKITEM.register("deepslate_aluminum_ore",
-            () -> new BlockItem(deepslateAluminumOre.get(), new Item.Properties().tab(PXTabs.BLOCKS)));
-
-    public static final RegistryObject<Block> magnesiumOre = BLOCK.register("magnesium_ore", MagnesiumOre::new);
-    public static final RegistryObject<Item> magnesiumOreItem = BLOCKITEM.register("magnesium_ore",
-            () -> new BlockItem(magnesiumOre.get(), new Item.Properties().tab(PXTabs.BLOCKS)));
-
-    public static final RegistryObject<Block> deepslateMagnesiumOre = BLOCK.register("deepslate_magnesium_ore", MagnesiumOre::new);
-    public static final RegistryObject<Item> deepslateMagnesiumOreItem = BLOCKITEM.register("deepslate_magnesium_ore",
-            () -> new BlockItem(deepslateMagnesiumOre.get(), new Item.Properties().tab(PXTabs.BLOCKS)));
 }

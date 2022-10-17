@@ -5,95 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9468b846-99a8-4055-8ae7-c1f5532b5149" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/github/parameterx/blocks/DeepslateMagnesiumOre.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/github/parameterx/blocks/MagnesiumBlock.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/github/parameterx/blocks/MagnesiumOre.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/github/parameterx/items/materials/MagnesiumIngot.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/logs/2022-10-17-12.log.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/logs/2022-10-17-13.log.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/logs/2022-10-17-14.log.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/logs/2022-10-17-15.log.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/logs/2022-10-17-16.log.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/logs/2022-10-17-17.log.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/logs/2022-10-17-18.log.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/logs/2022-10-17-19.log.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/logs/2022-10-17-20.log.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/logs/2022-10-18-1.log.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/Test World x1/DIM-1/data/capabilities.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/Test World x1/DIM-1/data/raids.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/Test World x1/DIM1/data/capabilities.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/Test World x1/DIM1/data/raids_end.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/Test World x1/advancements/380df991-f603-344c-a090-369bad2a924a.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/Test World x1/data/capabilities.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/Test World x1/data/raids.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/Test World x1/entities/r.-1.-1.mca" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/Test World x1/entities/r.-1.0.mca" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/Test World x1/entities/r.0.-1.mca" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/Test World x1/entities/r.0.0.mca" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/Test World x1/icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/Test World x1/level.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/Test World x1/level.dat_old" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/Test World x1/playerdata/380df991-f603-344c-a090-369bad2a924a.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/Test World x1/playerdata/380df991-f603-344c-a090-369bad2a924a.dat_old" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/Test World x1/poi/r.-1.-1.mca" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/Test World x1/poi/r.-1.0.mca" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/Test World x1/poi/r.0.-1.mca" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/Test World x1/poi/r.0.0.mca" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/Test World x1/region/r.-1.-1.mca" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/Test World x1/region/r.-1.0.mca" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/Test World x1/region/r.0.-1.mca" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/Test World x1/region/r.0.0.mca" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/Test World x1/serverconfig/forge-server.toml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/Test World x1/session.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/Test World x1/stats/380df991-f603-344c-a090-369bad2a924a.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/screenshots/2022-10-17_23.58.33.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/parameterx/blocks/DeepslateMagnesiumOre.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/parameterx/blocks/MagnesiumBlock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/parameterx/blocks/MagnesiumOre.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/parameterx/items/materials/MagnesiumIngot.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/projectx/blockstates/deepslate_magnesium_ore.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/projectx/blockstates/magnesium_block.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/projectx/blockstates/magnesium_ore.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/projectx/models/block/deepslate_magnesium_ore.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/projectx/models/block/magnesium_block.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/projectx/models/block/magnesium_ore.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/projectx/models/item/deepslate_magnesium_ore.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/projectx/models/item/magnesium_block.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/projectx/models/item/magnesium_ingot.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/projectx/models/item/magnesium_ore.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/projectx/models/item/raw_magnesium.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/projectx/textures/block/deepslate.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/projectx/textures/block/deepslate_magnesium_ore.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/projectx/textures/block/magnesium_block.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/projectx/textures/block/magnesium_ore.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/projectx/textures/block/stone.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/projectx/textures/item/magnesium_ingot.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/projectx/textures/item/raw_magnesium.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/7.5/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.5/checksums/checksums.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/crash-reports/crash-2022-10-18_00.37.40-client.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/logs/2022-10-18-2.log.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/logs/2022-10-18-3.log.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/logs/2022-10-18-4.log.gz" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.5/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.5/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.5/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.5/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.5/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.5/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.5/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.5/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.5/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.5/fileHashes/resourceHashesCache.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/file-system.probe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/github/parameterx/BlockRegister.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/github/parameterx/BlockRegister.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/github/parameterx/ItemRegister.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/github/parameterx/ItemRegister.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/assets/projectx/textures/block/aluminum_ore.png" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/assets/projectx/textures/block/aluminum_ore.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/assets/projectx/textures/block/deepslate_aluminum_ore.png" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/assets/projectx/textures/block/deepslate_aluminum_ore.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/logs/2022-10-17-1.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2022-10-17-1.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/logs/2022-10-17-10.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2022-10-17-10.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/logs/2022-10-17-11.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2022-10-17-11.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/logs/2022-10-17-2.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2022-10-17-2.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/logs/2022-10-17-3.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2022-10-17-3.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/logs/2022-10-17-4.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2022-10-17-4.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/logs/2022-10-17-5.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2022-10-17-5.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/logs/2022-10-17-6.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2022-10-17-6.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/logs/2022-10-17-7.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2022-10-17-7.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/logs/2022-10-17-8.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2022-10-17-8.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/logs/2022-10-17-9.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2022-10-17-9.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/2022-10-18-1.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2022-10-18-1.log.gz" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/logs/debug-1.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug-1.log.gz" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/logs/debug-2.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug-2.log.gz" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/logs/debug-3.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug-3.log.gz" afterDir="false" />
@@ -101,30 +26,23 @@
       <change beforePath="$PROJECT_DIR$/run/logs/debug-5.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug-5.log.gz" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/logs/debug.log" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/logs/latest.log" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/latest.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/Test World/DIM-1/data/raids.dat" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/Test World/DIM-1/data/raids.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/Test World/DIM1/data/raids_end.dat" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/Test World/DIM1/data/raids_end.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/Test World/advancements/380df991-f603-344c-a090-369bad2a924a.json" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/Test World/advancements/380df991-f603-344c-a090-369bad2a924a.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/Test World/data/raids.dat" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/Test World/data/raids.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/Test World/entities/r.-1.-1.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/Test World/entities/r.-1.-1.mca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/Test World/entities/r.-1.0.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/Test World/entities/r.-1.0.mca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/Test World/entities/r.0.-1.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/Test World/entities/r.0.-1.mca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/Test World/entities/r.0.0.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/Test World/entities/r.0.0.mca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/Test World/level.dat" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/Test World/level.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/Test World/level.dat_old" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/Test World/level.dat_old" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/Test World/playerdata/380df991-f603-344c-a090-369bad2a924a.dat" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/Test World/playerdata/380df991-f603-344c-a090-369bad2a924a.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/Test World/playerdata/380df991-f603-344c-a090-369bad2a924a.dat_old" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/Test World/playerdata/380df991-f603-344c-a090-369bad2a924a.dat_old" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/Test World/region/r.-1.-1.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/Test World/region/r.-1.-1.mca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/Test World/region/r.-1.0.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/Test World/region/r.-1.0.mca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/Test World/region/r.0.-1.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/Test World/region/r.0.-1.mca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/Test World/region/r.0.0.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/Test World/region/r.0.0.mca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/Test World/stats/380df991-f603-344c-a090-369bad2a924a.json" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/Test World/stats/380df991-f603-344c-a090-369bad2a924a.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/Test World x1/DIM-1/data/raids.dat" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/Test World x1/DIM-1/data/raids.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/Test World x1/DIM1/data/raids_end.dat" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/Test World x1/DIM1/data/raids_end.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/Test World x1/advancements/380df991-f603-344c-a090-369bad2a924a.json" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/Test World x1/advancements/380df991-f603-344c-a090-369bad2a924a.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/Test World x1/data/raids.dat" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/Test World x1/data/raids.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/Test World x1/entities/r.-1.0.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/Test World x1/entities/r.-1.0.mca" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/Test World x1/entities/r.0.-1.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/Test World x1/entities/r.0.-1.mca" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/Test World x1/level.dat" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/Test World x1/level.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/Test World x1/level.dat_old" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/Test World x1/level.dat_old" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/Test World x1/playerdata/380df991-f603-344c-a090-369bad2a924a.dat" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/Test World x1/playerdata/380df991-f603-344c-a090-369bad2a924a.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/Test World x1/playerdata/380df991-f603-344c-a090-369bad2a924a.dat_old" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/Test World x1/playerdata/380df991-f603-344c-a090-369bad2a924a.dat_old" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/Test World x1/region/r.-1.-1.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/Test World x1/region/r.-1.-1.mca" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/Test World x1/region/r.-1.0.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/Test World x1/region/r.-1.0.mca" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/Test World x1/region/r.0.-1.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/Test World x1/region/r.0.-1.mca" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/Test World x1/region/r.0.0.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/Test World x1/region/r.0.0.mca" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/Test World x1/stats/380df991-f603-344c-a090-369bad2a924a.json" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/Test World x1/stats/380df991-f603-344c-a090-369bad2a924a.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/usercache.json" beforeDir="false" afterPath="$PROJECT_DIR$/run/usercache.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/github/parameterx/BlockRegister.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/parameterx/BlockRegister.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/parameterx/ItemRegister.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/parameterx/ItemRegister.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/parameterx/blocks/AluminumBlock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/parameterx/blocks/AluminumBlock.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/parameterx/blocks/SteelBlock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/parameterx/blocks/SteelBlock.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/projectx/textures/block/aluminum_ore.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/projectx/textures/block/aluminum_ore.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/projectx/textures/block/deepslate_aluminum_ore.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/projectx/textures/block/deepslate_aluminum_ore.png" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
