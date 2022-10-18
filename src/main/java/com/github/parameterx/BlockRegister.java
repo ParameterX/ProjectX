@@ -16,7 +16,7 @@ public class BlockRegister {
     public static final DeferredRegister<Item> BLOCKITEM = DeferredRegister.create(ForgeRegistries.ITEMS,Utils.MODID);
 
     /**
-     * Auto register the block and create the blockItem and put it to the PXTabs.BLOCK tab.
+     * Auto register the block and create the blockItem and put it to the PXTabs.BLOCKS tab.
      * @param name
      * @param block
      * @return

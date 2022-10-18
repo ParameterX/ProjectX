@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "projectx:aluminum_ore",
+    "projectx:deepslate_aluminum_ore",
+    "projectx:magnesium_ore",
+    "projectx:deepslate_magnesium_ore"
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "values": [
+    "projectx:steel_block",
+    "projectx:aluminum_block",
+    "projectx:aluminum_ore",
+    "projectx:deepslate_aluminum_ore",
+    "projectx:magnesium_block",
+    "projectx:magnesium_ore",
+    "projectx:deepslate_magnesium_ore"
+  ]
+}
