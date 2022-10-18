@@ -24,9 +24,9 @@ public class ItemRegister {
      * Raw materials
      */
     public static final RegistryObject<Item> raw_aluminum = ITEM.register("raw_aluminum",
-            ()->new Item(new Item.Properties().tab(PXTabs.ITEMS)));
+            () -> new Item(new Item.Properties().tab(PXTabs.ITEMS)));
     public static final RegistryObject<Item> raw_magnesium = ITEM.register("raw_magnesium",
-            ()->new Item(new Item.Properties().tab(PXTabs.ITEMS)));
+            () -> new Item(new Item.Properties().tab(PXTabs.ITEMS)));
 
     /**
      * Materials
