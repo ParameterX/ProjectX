@@ -21,8 +21,8 @@ public class PXItemTier {
                         PXTags.Blocks.NEED_STEEL_TOOL,
                         () -> Ingredient.of(ItemRegister.steelIngot.get())),
                 new ResourceLocation(Utils.MODID,"steel"),
-                List.of(Tiers.DIAMOND),
-                List.of(Tiers.STONE)
+                List.of(Tiers.STONE),
+                List.of(Tiers.DIAMOND)
         );
     }
 }
