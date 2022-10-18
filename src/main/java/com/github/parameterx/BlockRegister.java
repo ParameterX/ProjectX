@@ -33,6 +33,8 @@ public class BlockRegister {
     public static final RegistryObject<Item> steelBlockItem = BLOCKITEM.register("steel_block",
             () -> new BlockItem(steelBlock.get(), new Item.Properties().tab(PXTabs.BLOCKS)));
 
+    // Blocks of block entities
+    public static final RegistryObject<Block> electrolyzerBlock = reg("electrolyzer",ElectrolyzerBlock::new);
 
     // Blocks
     public static final RegistryObject<Block> aluminumBlock = reg("aluminum_block", AluminumBlock::new);
