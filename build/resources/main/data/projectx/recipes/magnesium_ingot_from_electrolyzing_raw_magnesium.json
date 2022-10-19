@@ -1,0 +1,14 @@
+{
+  "type": "projectx:electrolyzer",
+  "cookingtime": 200,
+  "experience": 1.0,
+  "group": "magnesium_ingot",
+  "ingredients": [
+    {
+      "item": "projectx:raw_magnesium"
+    }
+  ],
+  "result": {
+    "item": "projectx:magnesium_ingot"
+  }
+}

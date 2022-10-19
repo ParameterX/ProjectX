@@ -25,6 +25,7 @@ public class ProjectX {
         BlockRegister.BLOCKITEM.register(eventBus);
         BlockEntityRegister.BLOCK_ENTITY.register(eventBus);
         MenuRegister.MENU.register(eventBus);
+        RecipeRegister.SERIALIZER.register(eventBus);
 
     }
 

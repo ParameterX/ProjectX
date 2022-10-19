@@ -1,0 +1,14 @@
+{
+  "type": "projectx:electrolyzer",
+  "cookingtime": 200,
+  "experience": 0.8,
+  "group": "aluminum_ingot",
+  "ingredients": [
+    {
+      "item": "projectx:raw_aluminum"
+    }
+  ],
+  "result": {
+    "item": "projectx:aluminum_ingot"
+  }
+}

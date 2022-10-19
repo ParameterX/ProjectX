@@ -2,6 +2,7 @@ package com.github.parameterx.blocks.entities;
 
 import com.github.parameterx.BlockEntityRegister;
 import com.github.parameterx.ItemRegister;
+import com.github.parameterx.recipes.ElectrolyzerRecipe;
 import com.github.parameterx.screens.ElectrolyzerMenu;
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.Direction;
@@ -26,6 +27,8 @@ import net.minecraftforge.items.IItemHandler;
 import net.minecraftforge.items.ItemStackHandler;
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
+
+import java.util.Optional;
 
 public class ElectrolyzerEntity extends BlockEntity implements MenuProvider {
 
@@ -102,6 +105,8 @@ public class ElectrolyzerEntity extends BlockEntity implements MenuProvider {
     @Override
     protected void saveAdditional(CompoundTag nbt) {
         nbt.put("inventory",itemStackHandler.serializeNBT());
+        nbt.putInt("electrolyzer.progress",this.progress);
+
         super.saveAdditional(nbt);
     }
 
@@ -142,9 +147,17 @@ public class ElectrolyzerEntity extends BlockEntity implements MenuProvider {
     }
 
     private static void craftItem(ElectrolyzerEntity entity) {
+        Level level1 = entity.level;
+        SimpleContainer inventory = new SimpleContainer(entity.itemStackHandler.getSlots());
+        for (int i=0; i< entity.itemStackHandler.getSlots(); i++){
+            inventory.setItem(i, entity.itemStackHandler.getStackInSlot(i));
+        }
+        Optional<ElectrolyzerRecipe> recipe =
+                level1.getRecipeManager().getRecipeFor(ElectrolyzerRecipe.Type.INSTANCE, inventory, level1);
+
         if (hasRecipe(entity)) {
             entity.itemStackHandler.extractItem(1,1,false);
-            entity.itemStackHandler.setStackInSlot(2,new ItemStack(ItemRegister.aluminumIngot.get(),
+            entity.itemStackHandler.setStackInSlot(2,new ItemStack(recipe.get().getResultItem().getItem(),
                     entity.itemStackHandler.getStackInSlot(2).getCount() + 1));
 
             entity.resetProgress();
@@ -152,17 +165,17 @@ public class ElectrolyzerEntity extends BlockEntity implements MenuProvider {
     }
 
     private static boolean hasRecipe(ElectrolyzerEntity entity) {
+        Level level1 = entity.level;
         SimpleContainer inventory = new SimpleContainer(entity.itemStackHandler.getSlots());
         for (int i=0; i< entity.itemStackHandler.getSlots(); i++){
             inventory.setItem(i, entity.itemStackHandler.getStackInSlot(i));
         }
+        Optional<ElectrolyzerRecipe> recipe =
+                level1.getRecipeManager().getRecipeFor(ElectrolyzerRecipe.Type.INSTANCE, inventory, level1);
 
-        boolean hasRawMaterialInFirstSlot =
-                entity.itemStackHandler.getStackInSlot(1).getItem() == ItemRegister.raw_aluminum.get();
-
-        return hasRawMaterialInFirstSlot
+        return recipe.isPresent()
                 && canInsertAmountIntoOutputSlot(inventory)
-                && canInsertItemIntoOutputSlot(inventory,new ItemStack(ItemRegister.aluminumIngot.get(),1));
+                && canInsertItemIntoOutputSlot(inventory, recipe.get().getResultItem());
     }
 
     private static boolean canInsertItemIntoOutputSlot(SimpleContainer inventory, ItemStack itemStack) {
